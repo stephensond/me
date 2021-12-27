@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/index.css';
+import * as styles from './index.module.css';
 
 function HomePage() {
   return (
-    <div className="background">
-      <h1 className="content">Under construction.</h1>
-      <p className="subcontent">Coming soon!</p>
+    <div>
+      <p className={styles.content}>Under construction.</p>
+      <p className={styles.subcontent}>Coming soon!</p>
     </div>
   );
 }
