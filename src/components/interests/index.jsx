@@ -17,20 +17,21 @@ const SPORTS_CONTENT = (
       from Wimbledon to the World Cup.
     </p>
     <p>
-      Over the last few fall seaons, I&apos;ve gotten more into fantasy football.
+      Over the last few years, I&apos;ve gotten more into fantasy football.
       I find it a really cool way to get to know and root for individual players who are so
       talented and skilled at their position. It makes watching NFL regular season games
-      that dont involve your favorite team a lot more interesting. (And since my favorite
+      that don&apos;t involve your favorite team a lot more interesting. (And since my favorite
       team is the New York Jets, who are consistently horrible, fantasy is pretty
-      necessary to keep the season fun). My roomate and I are actually working
+      necessary to keep the season fun). My friend and I are actually working
       on our own fantasy football draft web app, Modern Fantasy, as a way to
       combine interests in software development and fantasy. (you can check it out on my GitHub)
     </p>
     <p>
       During the winter, college basketball is what occupies most of my sports interest.
       It&apos;s such a unique sport in that there are a lot of teams (358) all playing for the
-      same championship, and it undoubtably has the best postseason tournament in all of
-      sports, March Madness. Some sites I&apos;m a frequent visitor of from November - March:
+      same championship, and it undoubtedly has the best postseason tournament in all of
+      sports, March Madness. Here are some sites that I visit frequently
+      during the college basketball season:
     </p>
     <ul className={styles.links}>
       <li>
@@ -101,7 +102,7 @@ const COVID_CONTENT = (
       how vaccines work to provide different defense mechanisms against
       getting really sick.
     </p>
-    <p> Here are some twitter accounts that I&apos;ve enjoyed following:</p>
+    <p> Here are some Twitter accounts that I&apos;ve enjoyed following:</p>
     <ul className={styles.links}>
       <li>
         <a
