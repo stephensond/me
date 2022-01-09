@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 24rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.image-container {
+  margin-bottom: 1rem;
+}
+
+.contact {
+  font-size: 1.75rem;
+}
+
+.item {
+  margin-bottom: 0.5rem;
+}

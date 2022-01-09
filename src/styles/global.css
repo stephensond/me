@@ -1,0 +1,8 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color:cornflowerblue;
+}
+
+input, textarea, button {
+  font-family: inherit;
+}
