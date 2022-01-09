@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "stephensond.github.io",
+    title: 'David Stephenson',
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+  ],
 };
