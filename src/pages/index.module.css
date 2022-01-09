@@ -32,6 +32,25 @@
   margin: 2rem 1rem;
 }
 
+.footer {
+  margin: 2rem 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: rgb(150, 150, 150);
+}
+
 @media (min-width: 64rem) { 
   .top {
     flex-direction: row;
@@ -53,6 +72,10 @@
   }
 
   .interests {
+    margin: 3rem 6rem;
+  }
+
+  .footer {
     margin: 3rem 6rem;
   }
 }
