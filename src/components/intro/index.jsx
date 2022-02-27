@@ -19,12 +19,12 @@ export default function Intro() {
           width={30}
         />
         <a
-          href="mailto:dstephenson1101@gmail.com"
+          href="mailto:stephenson.d@northeastern.edu"
           className={styles.text}
           target="_blank"
           rel="noopener noreferrer"
         >
-          dstephenson1101@gmail.com
+          stephenson.d@northeastern.edu
         </a>
       </div>
       <div className={styles.item}>
