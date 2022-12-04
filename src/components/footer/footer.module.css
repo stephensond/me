@@ -1,0 +1,17 @@
+.footer {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: rgb(150, 150, 150);
+}

@@ -1,16 +1,16 @@
-import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
-import * as styles from './intro.module.css';
+import { StaticImage } from 'gatsby-plugin-image';
+import * as styles from './top-left.module.css';
 
-export default function Intro() {
+export default function TopLeft() {
   return (
-    <div className={styles.container}>
+    <div className={styles.topLeft}>
       <div className={styles.title}>
-        Hey, I’m David.
+        Hey, I&apos;m David.
       </div>
       <div className={styles.subtitle}>
-        I expect to graduate from Northeastern next year with a BS in
-        computer science and math. I am an aspiring software developer.
+        I plan to graduate from Northeastern University in 2023 with a BS in
+        computer science and math.
       </div>
       <div className={styles.item}>
         <StaticImage
@@ -19,12 +19,12 @@ export default function Intro() {
           width={30}
         />
         <a
-          href="mailto:stephenson.d@northeastern.edu"
+          href="dstephenson1101@gmail.com"
           className={styles.text}
           target="_blank"
           rel="noopener noreferrer"
         >
-          stephenson.d@northeastern.edu
+          dstephenson1101@gmail.com
         </a>
       </div>
       <div className={styles.item}>

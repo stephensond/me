@@ -1,9 +1,22 @@
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+  align-items: stretch;
+}
+
+.bodyHeader {
+  font-size: 1.25rem;
+  padding: 2rem;
+  border: solid;
+  border-width: 0 0 2px 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  background-color: white;
-  border-radius: 1rem;
+  align-items: stretch;
 }
 
 .topics {
@@ -25,16 +38,14 @@
   cursor: pointer;
 }
 
-.item:last-child {
-  border-bottom-width: 0;
-}
-
 .selected {
   font-weight: bold;
 }
 
+
 .content {
   font-size: 1.125rem;
+  padding: 2rem;
 }
 
 
@@ -56,16 +67,20 @@
 @media (min-width: 64rem) {
   .container {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: stretch;
   }
 
-  .content {
-    margin-left: 3rem;
+  .topics {
+    border: solid;
+    border-width: 0 2px 0 0;
   }
 
   .item {
-    border-right-width: 2px;
     padding: 2rem 1rem;
   }
 
+  .item:last-child {
+    border-bottom-width: 0;
+    border-bottom-left-radius: 1rem;
+  }
 }
