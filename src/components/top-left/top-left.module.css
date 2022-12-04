@@ -1,10 +1,7 @@
-.container {
+.topLeft {
   display: flex;
   flex-direction: column;
   max-width: 24rem;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 1rem;
 }
 
 .title {
@@ -14,13 +11,13 @@
 }
 
 .subtitle {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 3rem;
 }
 
 .item {
   font-size: 1.125rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   display: flex;
   text-decoration: none;
   align-items: center;

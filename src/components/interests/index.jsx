@@ -235,22 +235,28 @@ export default function Interests() {
   };
 
   return (
-    <div className={styles.container}>
-      <div className={styles.topics}>
-        {Object.values(TOPICS).map((val) => (
-          <button
-            type="button"
-            onClick={() => setTopic(val)}
-            className={getStyle(val)}
-          >
-            {val}
-          </button>
-        ))}
+    <div className={styles.outerContainer}>
+      <div className={styles.bodyHeader}>
+        While I like writing code, it&apos;s really important to me to
+        maintain balance in my life and also make time for other things I enjoy.
+        So on that note, here are some other things that I find interesting!
       </div>
-      <div className={styles.content}>
-        {getContent()}
+      <div className={styles.container}>
+        <div className={styles.topics}>
+          {Object.values(TOPICS).map((val) => (
+            <button
+              type="button"
+              onClick={() => setTopic(val)}
+              className={getStyle(val)}
+            >
+              {val}
+            </button>
+          ))}
+        </div>
+        <div className={styles.content}>
+          {getContent()}
+        </div>
       </div>
-
     </div>
   );
 }

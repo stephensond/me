@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: white;
+  justify-content: space-evenly;
+}
+
+.topLeftWrapper {
+  margin: 2rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  order: 2;
+
+}
+
+.topRightWrapper {
+  margin: 2rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  order: 1;
+
+}
+
+@media (min-width: 64rem) { 
+  .container {
+    flex-direction: row;
+  }
+  
+  .topLeftWrapper {
+    margin: 2rem;
+    order: 1; 
+  }
+  
+  .topRightWrapper {
+    margin: 2rem;
+    order: 2;
+  }  
+}
