@@ -1,0 +1,19 @@
+.content {
+  font-size: 1.125rem;
+  padding: 2rem;
+}
+
+.links {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.site {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.site:hover {
+  color: rgb(150, 150, 150);
+}
