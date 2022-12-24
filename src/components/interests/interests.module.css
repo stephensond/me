@@ -7,7 +7,10 @@
 }
 
 .bodyHeader {
-  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
   padding: 2rem;
   border: solid;
   border-width: 0 0 2px 0;
@@ -42,27 +45,6 @@
   font-weight: bold;
 }
 
-
-.content {
-  font-size: 1.125rem;
-  padding: 2rem;
-}
-
-
-.links {
-  padding-left: 0;
-  list-style-position: inside;
-}
-
-.site {
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-
-.site:hover {
-  color: rgb(150, 150, 150);
-}
 
 @media (min-width: 64rem) {
   .container {
